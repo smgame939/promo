@@ -2970,7 +2970,10 @@ height: 100vh;
 	}
   }
 
-
+ul.your-list.pricingpage {
+	display: flex;
+	justify-content: center;
+}
 
 
  
