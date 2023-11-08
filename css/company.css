@@ -2707,7 +2707,9 @@ height: 100vh;
     opacity: 0.5;
 }
 
-
+.swiper-slide-inner-bg img {
+	width: fit-content;
+}
 
 @media all and (min-width:769px){
 	.tabs .tab a {
@@ -2725,6 +2727,11 @@ height: 100vh;
 	.img_card {
 		width: 46.33%;
 	}
+
+	.hero-heading._h1 {
+		max-width: 100%;
+	}
+
 }  
   @media only screen and (max-width: 995px) {
 	.swiper-slide-inner-txt {
