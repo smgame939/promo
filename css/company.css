@@ -2085,7 +2085,6 @@ font-family: roboto;
 
 .box-col.bx-1 {
 	min-width: 15%;
-	width: 20%;
 }
 
 .box-col.bx-2 {
@@ -2977,7 +2976,9 @@ ul.your-list.pricingpage {
 	justify-content: center;
 }
 
-
+.text-red {
+	color: red;
+}
  
 
 
