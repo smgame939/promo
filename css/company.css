@@ -1784,9 +1784,10 @@ box-shadow:none;
     color: #9a9a9a;
 }
 .img_card {
-    width: 20%;
-	margin:10px;
+    width: 22.33%;
+    margin: 10px;
     display: inline-block;
+    vertical-align: top;
 }
 
 .rounded_ {
@@ -1818,6 +1819,9 @@ font-family: roboto;
 }
 .tabs_content2 .row {
     padding: 100px 0 30px;
+}
+.tab__container .tabs {
+    overflow-x: hidden;
 }
 /* Footer left */
 
@@ -2716,6 +2720,12 @@ height: 100vh;
 	  font-size: 65px;
 	}
   }
+
+@media only screen and (max-width: 1920px){
+	.img_card {
+		width: 46.33%;
+	}
+}  
   @media only screen and (max-width: 995px) {
 	.swiper-slide-inner-txt {
 	  width: 100% !important;
