@@ -1506,6 +1506,8 @@ padding: 0 44px; }
 
 .nav_wrapper .side-nav li>a {
     color: #fff;   
+	margin:0;
+	padding:0;
 }
 .nav_wrapper .side-nav .rtl-dir i {
     color: inherit;
