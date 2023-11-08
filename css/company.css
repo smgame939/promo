@@ -2721,7 +2721,7 @@ height: 100vh;
 	}
   }
 
-@media only screen and (max-width: 1920px){
+@media only screen and (max-width: 1120px){
 	.img_card {
 		width: 46.33%;
 	}
