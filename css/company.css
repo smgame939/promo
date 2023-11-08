@@ -1505,6 +1505,8 @@ padding: 0 44px; }
     left: 0;
     z-index: -1;
 }
+
+
 .nav_wrapper .side-nav .rtl-dir ul {
     margin-bottom: 50px;
 }
@@ -1521,7 +1523,7 @@ padding: 0 44px; }
     margin: 0 10px 0 0;
 }
 .side-nav .rtl-dir .title_side ._home_ {
-    margin: -4px 0;
+    margin: -5px 0;
 }
 
 .social_side-nav {
