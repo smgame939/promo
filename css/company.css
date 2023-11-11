@@ -2111,7 +2111,7 @@ font-family: roboto;
 }
 
 .box-col.bx-1 {
-	min-width: 15%;
+	width: 24%;
 }
 
 .box-col.bx-2 {
@@ -2152,7 +2152,7 @@ font-family: roboto;
 
 .box-col .box-content {
 	font-family: 'titleGothic1';
-	font-size: 14px;
+	font-size: 16px;
 	color: #fff;
 	display: flex;
 	justify-content: center;
@@ -2167,7 +2167,7 @@ font-family: roboto;
 
 .box-col .content-top.type2 .box-content {
 	margin: 20px 0;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 .box-col .content-bottom {
@@ -3017,8 +3017,21 @@ ul.your-list.pricingpage {
 }
 
 .text-red {
-	color: red;
+	color: #ff4343;
 }
- 
 
+.text-green {
+	color: #44df4a;
+}
 
+.d-flex {
+	display: flex;
+}
+
+.t-price {
+	margin-top: 15px;
+    border-top: 1px solid #636262;
+    padding-top: 10px;
+    justify-content: space-between;
+    font-weight: 600;
+}
