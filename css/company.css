@@ -2195,7 +2195,7 @@ font-family: roboto;
 
 .box-col .box-row-title {
 	font-family: 'titleGothic1';
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 600;
 	color: #a755ff;
 }
@@ -3013,6 +3013,7 @@ height: 100vh;
 
 ul.your-list.pricingpage {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 }
 
@@ -3034,4 +3035,13 @@ ul.your-list.pricingpage {
     padding-top: 10px;
     justify-content: space-between;
     font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+	.pricing-container .box-subtitle {
+		font-size: 20px;
+	}
+	.box-col .box-content {
+		font-size: 15px;
+	}
 }
