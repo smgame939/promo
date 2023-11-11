@@ -3034,7 +3034,6 @@ ul.your-list.pricingpage {
     border-top: 1px solid #636262;
     padding-top: 10px;
     justify-content: space-between;
-    font-weight: 600;
 }
 
 @media screen and (max-width:768px) {
