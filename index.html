@@ -104,7 +104,7 @@
                         <ul class="social-wrap">
                             <li class="social">
                                 <!-- Telegram Link -->
-                                <a href="https://t.me/rchlrc">
+                                <a href="https://t.me/rchlrc" class="teleid notext">
                                     <i class="fi fi-brands-telegram waves-effect waves-circle waves-light light-blue lighten-2"></i>
 								</a>
 							</li>
@@ -836,10 +836,10 @@
                         <div class="box_right">
                             <ul class="box_right-content">
                                 <li class="box_right-item">
-                                    <p class="box_right-item-p">Telegram: @rchlrc</p>
+                                    <p class="box_right-item-p teleid">Telegram: @rchlrc</p>
 								</li>
                                 <li class="box_right-item">
-                                    <a class="btn-outline cs_link" href="https://t.me/rchlrc">
+                                    <a class="btn-outline cs_link telelink" href="https://t.me/rchlrc">
                                         <p class="btn-text">지금 바로 문의</p>
                                         <i class="fi fi-ss-arrow-right"></i>
 									</a>
@@ -887,7 +887,7 @@
 								<div class="fi_wrap">
 									<i class="fi fi-brands-telegram"></i>
 									<p>
-										<a href="https://t.me/rchlrc">Telegram:@rchlrc </a>
+										<a href="https://t.me/rchlrc" class="telelink teleid">Telegram: @rchlrc </a>
 									</p>
 								</div>
 							</div>
@@ -1018,10 +1018,10 @@
 							<div class="box_right">
 								<ul class="box_right-content">
 									<li class="box_right-item">
-										<p class="box_right-item-p">Telegram: @rchlrc</p>
+										<p class="box_right-item-p teleid">Telegram: @rchlrc</p>
 									</li>
 									<li class="box_right-item">
-										<a class="btn-outline cs_link" href="https://t.me/rchlrc">
+										<a class="btn-outline cs_link telelink" href="https://t.me/rchlrc">
 											<p class="btn-text">지금 바로 문의</p>
 											<i class="fi fi-ss-arrow-right"></i>
 										</a>
@@ -1067,7 +1067,7 @@
 									<div class="fi_wrap">
 										<i class="fi fi-brands-telegram"></i>
 										<p>
-											<a href="https://t.me/rchlrc">Telegram:@rchlrc </a>
+											<a href="https://t.me/rchlrc" class="telelink teleid">Telegram: @rchlrc </a>
 										</p>
 									</div>
 								</div>
@@ -1801,10 +1801,10 @@
 							<div class="box_right">
 								<ul class="box_right-content">
 									<li class="box_right-item">
-										<p class="box_right-item-p">Telegram: @rchlrc</p>
+										<p class="box_right-item-p" class="teleid">Telegram: @rchlrc</p>
 									</li>
 									<li class="box_right-item">
-										<a class="btn-outline cs_link" href="https://t.me/rchlrc">
+										<a class="btn-outline cs_link telelink" href="https://t.me/rchlrc">
 											<p class="btn-text">지금 바로 문의</p>
 											<i class="fi fi-ss-arrow-right"></i>
 										</a>
@@ -1852,7 +1852,7 @@
 									<div class="fi_wrap">
 										<i class="fi fi-brands-telegram"></i>
 										<p>
-											<a href="https://t.me/rchlrc">Telegram:@rchlrc </a>
+											<a href="https://t.me/rchlrc" class="telelink teleid">Telegram: @rchlrc </a>
 										</p>
 									</div>
 								</div>
@@ -1891,7 +1891,24 @@
 							}
 						});
 					</script>
-					
+					<script>
+						document.addEventListener("DOMContentLoaded", function() {
+							var telelink = document.querySelector(".telelink");
+							var teleid = document.querySelector(".teleid");
+
+							if (window.location.hostname === 'smgame22.com' || window.location.hostname === 'smgame939.github.io') {
+								telelink.href = 'https://t.me/rchlrc2';
+								teleid.textContent = 'Telegram: @rchlrc';								
+							} else if (window.location.hostname == 'smgame55.com') {
+								telelink.href = 'https://t.me/toqur0528';
+								teleid.textContent = 'Telegram: @toqur0528';	
+							}
+							else {
+								telelink.href = ' ';
+								teleid.textContent = 'Telegram:  ';
+							}
+						});
+					</script>
 
 
 				</div>
