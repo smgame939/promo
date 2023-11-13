@@ -1609,12 +1609,38 @@ padding: 0 44px; }
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
+.box-col .box-content .tg {
+    width: 100%;
+	margin: 20px 0;
+}
+
+.box-col .box-content .tg .t-right .text-green {
+    display: inline-block;
+}
+
+
+.box-col .box-content .tg .bold_ {
+    font-weight: 900;
+    padding-right: 10px;
+}
+.box-col .box-content .tg .t-right {
+    text-align: right;
+}
+.box-col .box-content .tg .t-right  .price_det2 {
+    display: inline-block;
+}
+
+.box-col .box-content .tg .t-right .price_det1 {
+    display: inline-block;
+
+}
 
 nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i , .nav_wrapper {    height: 120px;}
 .nav_wrapper {
     position: relative;
 
 }
+
 #main-header {
 		background-color:#000000;padding:0;
 }
@@ -2955,7 +2981,13 @@ height: 100vh;
 	.laravel-intro h2 {
 		font-size: 30px;
 	}
-
+	.mission_container .row_mission .head_title_misson {
+		font-size: 36px;
+	}
+	
+	.light_text {
+		font-size: 14px;
+	}
 	.swiper-slide-controls.slide-next {
 	  margin-top: 10px;
 	}
@@ -3038,9 +3070,14 @@ ul.your-list.pricingpage {
 
 @media screen and (max-width:768px) {
 	.pricing-container .box-subtitle {
-		font-size: 20px;
+		font-size: 17px;
 	}
-	.box-col .box-content {
-		font-size: 15px;
+	.box-col .box-content , .box-col .content-top.type2 .box-content{
+		font-size: 12px;
 	}
+
+	.pricing-container .box-row .box-col {
+		padding:10px;
+	}
+
 }
