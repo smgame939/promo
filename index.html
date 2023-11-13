@@ -104,7 +104,7 @@
                         <ul class="social-wrap">
                             <li class="social">
                                 <!-- Telegram Link -->
-                                <a href="https://t.me/rchlrc" class="teleid notext">
+                                <a href="https://t.me/rchlrc" class="telelink">
                                     <i class="fi fi-brands-telegram waves-effect waves-circle waves-light light-blue lighten-2"></i>
 								</a>
 							</li>
@@ -1889,28 +1889,15 @@
 									$(".carousel").carousel("prev");
 								});
 							}
-						});
-					</script>
-					<script>
-						document.addEventListener("DOMContentLoaded", function() {
-							var telelink = document.querySelector(".telelink");
-							var teleid = document.querySelector(".teleid");
 
 							if (window.location.hostname === 'smgame22.com' || window.location.hostname === 'smgame939.github.io') {
-								telelink.href = 'https://t.me/rchlrc2';
-								teleid.textContent = 'Telegram: @rchlrc2';								
-							} else if (window.location.hostname == 'smgame55.com') {
-								telelink.href = 'https://t.me/toqur0528';
-								teleid.textContent = 'Telegram: @toqur0528';	
-							}
-							else {
-								telelink.href = ' ';
-								teleid.textContent = 'Telegram:  ';
+								$(".telelink").attr('href', 'https://t.me/rchlrc23');
+								$(".teleid").text('Telegram: @rchlrc23');
+							} else {
+								console.log('Empty');
 							}
 						});
 					</script>
-
-
 				</div>
 			</body>
 		</html>
