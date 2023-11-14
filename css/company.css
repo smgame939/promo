@@ -2811,6 +2811,9 @@ height: 100vh;
 	}
   }
   @media (max-width: 768px) {
+	.tabs_content2 .row_samplepage {
+		padding: 0;
+	}
 	.scroll-downs {
 	  display: none;
 	}
